@@ -1,12 +1,16 @@
 # Ignore everything
 *
 
-# But keep the git config and this file
+# Keep Git config files
 !.gitignore
 !.gitattributes
 
-# Allow only the security alarm project
+# Allow 'project' folder
 !project/
+
+# Ignore everything inside 'project'
+project/*
+
+# Allow 'arduino' folder and everything in it
 !project/arduino/
-!project/arduino/securityalarm/
-!project/arduino/securityalarm/**
+!project/arduino/**
