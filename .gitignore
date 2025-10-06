@@ -1,0 +1,12 @@
+# Ignore everything
+*
+
+# But keep the git config and this file
+!.gitignore
+!.gitattributes
+
+# Allow only the security alarm project
+!project/
+!project/arduino/
+!project/arduino/securityalarm/
+!project/arduino/securityalarm/**
