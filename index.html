@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LoboThExile // Systems & Game Logic Developer</title>
+  <meta name="description" content="Portfolio of LoboThExile (Lobo) - Systems developer, game logic architect, and tooling builder.">
+  <meta property="og:title" content="LoboThExile // Developer Portfolio">
+  <meta property="og:description" content="Game logic architect, systems tinkerer, and utility builder.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://lobothexile.github.io/">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Top Navigation & Status -->
+    <header class="top-nav">
+      <div class="status-pill">
+        <span class="status-dot" aria-hidden="true"></span>
+        <span>Active builder &bull; Open to collabs</span>
+      </div>
+      <nav class="nav-links" aria-label="Quick links">
+        <a href="#projects">Projects</a>
+        <a href="#stack">Stack</a>
+        <a href="https://github.com/LoboThExile" target="_blank" rel="noopener noreferrer">GitHub &nearr;</a>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-terminal">$ whoami</div>
+      <h1 class="hero-title">LoboThExile</h1>
+      <p class="hero-bio">
+        Systems-minded developer and builder. Designing game mechanics, low-level engine experiments, hardware defenses, and lightweight developer utilities.
+      </p>
+      <div class="hero-meta">
+        <span class="meta-chip">Location: Remote / MY</span>
+        <span class="meta-chip">Primary Focus: Systems, Game Logic &amp; Tooling</span>
+        <span class="meta-chip">Profile: Lobo</span>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Featured Projects -->
+      <section id="projects" aria-labelledby="featured-title">
+        <div class="section-heading">
+          <h2 id="featured-title" class="section-title">01 // Featured Work</h2>
+          <div class="section-line" aria-hidden="true"></div>
+        </div>
+
+        <div class="projects-featured">
+          <!-- CodeWorkers -->
+          <article class="card">
+            <div class="card-header">
+              <div class="card-title-group">
+                <h3 class="card-title">CodeWorkers</h3>
+                <span class="card-badge badge-private">Private Collab &bull; In Development</span>
+              </div>
+              <span class="tag">Godot Engine / GDScript / RISC-V</span>
+            </div>
+            <p class="card-desc">
+              Retro tactical cyber-workstation simulation and micro-virtual machine sandbox built in Godot.
+            </p>
+            <ul class="card-bullets">
+              <li>Embedded a real 32-bit RISC-V Linux kernel runner (<code>mini-rv32ima</code>) and nano editor inside Godot.</li>
+              <li>Engineered a dual-stage terminal environment with cross-platform micro-Linux binaries and runtime OS detection.</li>
+              <li>Wrote a pure GDScript Discord RPC client for live rich presence without external dependencies.</li>
+              <li>Developed secret terminal suites, cheat engines, and custom telemetry dialogues.</li>
+            </ul>
+            <div class="card-tags">
+              <span class="tag">Godot</span>
+              <span class="tag">GDScript</span>
+              <span class="tag">RISC-V Emulation</span>
+              <span class="tag">Micro-Linux</span>
+              <span class="tag">Discord RPC</span>
+            </div>
+          </article>
+
+          <!-- Pointmatch -->
+          <article class="card">
+            <div class="card-header">
+              <div class="card-title-group">
+                <h3 class="card-title">Pointmatch</h3>
+                <span class="card-badge badge-flagship">Flagship Datapack</span>
+              </div>
+              <a href="https://github.com/LoboThExile/Pointmatch" class="card-link" target="_blank" rel="noopener noreferrer">Source &nearr;</a>
+            </div>
+            <p class="card-desc">
+              Complex Minecraft competitive gameplay engine written entirely as a native datapack. Features dynamic round scoring, game phase state machines, scoreboard telemetry, and automated match lifecycle logic.
+            </p>
+            <div class="card-tags">
+              <span class="tag">Minecraft Datapack</span>
+              <span class="tag">mcfunction</span>
+              <span class="tag">NBT / Scoreboards</span>
+              <span class="tag">Game Logic</span>
+            </div>
+          </article>
+
+          <!-- SemestraEnterprise -->
+          <article class="card">
+            <div class="card-header">
+              <div class="card-title-group">
+                <h3 class="card-title">SemestraEnterprise</h3>
+                <span class="card-badge badge-public">Public Repository</span>
+              </div>
+              <a href="https://github.com/LoboThExile/SemestraEnterprise" class="card-link" target="_blank" rel="noopener noreferrer">Source &nearr;</a>
+            </div>
+            <p class="card-desc">
+              Modern enterprise web application platform featuring modular UI components, structured client-side data workflows, and responsive layouts.
+            </p>
+            <div class="card-tags">
+              <span class="tag">Web Application</span>
+              <span class="tag">TypeScript</span>
+              <span class="tag">Frontend Architecture</span>
+            </div>
+          </article>
+        </div>
+
+        <!-- Secondary Systems & Experiments Grid -->
+        <div class="section-heading" style="margin-top: 2rem;">
+          <h2 class="section-title">02 // Systems &amp; Tools</h2>
+          <div class="section-line" aria-hidden="true"></div>
+        </div>
+
+        <div class="projects-grid">
+          <!-- antigravity-account-switcher -->
+          <article class="card">
+            <div class="card-header">
+              <h3 class="card-title">antigravity-account-switcher</h3>
+              <a href="https://github.com/LoboThExile/antigravity-account-switcher" class="card-link" target="_blank" rel="noopener noreferrer">Source &nearr;</a>
+            </div>
+            <p class="card-desc">
+              Automated CLI utility to switch between multiple Google accounts in Antigravity to seamlessly bypass model rate limits during heavy pair-programming cycles.
+            </p>
+            <div class="card-tags">
+              <span class="tag">Developer Tooling</span>
+              <span class="tag">Automation</span>
+              <span class="tag">Auth Management</span>
+            </div>
+          </article>
+
+          <!-- The-Wild-Hunt -->
+          <article class="card">
+            <div class="card-header">
+              <h3 class="card-title">The-Wild-Hunt</h3>
+              <a href="https://github.com/LoboThExile/The-Wild-Hunt" class="card-link" target="_blank" rel="noopener noreferrer">Source &nearr;</a>
+            </div>
+            <p class="card-desc">
+              Asymmetric "All vs. One" PvP minigame. One player becomes the Prey while hunters track them down before timer expiration. Features dynamic role reassignment and timer triggers.
+            </p>
+            <div class="card-tags">
+              <span class="tag">Multiplayer Logic</span>
+              <span class="tag">PvP Mechanics</span>
+              <span class="tag">Game Design</span>
+            </div>
+          </article>
+
+          <!-- SecurityAlarmArduino -->
+          <article class="card">
+            <div class="card-header">
+              <h3 class="card-title">SecurityAlarmArduino</h3>
+              <a href="https://github.com/LoboThExile/SecurityAlarmArduino" class="card-link" target="_blank" rel="noopener noreferrer">Source &nearr;</a>
+            </div>
+            <p class="card-desc">
+              Hardware perimeter defense system engineered with Arduino microcontrollers, laser tripwires, and photoresistors to trigger active sound and visual alarm states.
+            </p>
+            <div class="card-tags">
+              <span class="tag">Arduino</span>
+              <span class="tag">C++ / Embedded</span>
+              <span class="tag">Hardware / IoT</span>
+            </div>
+          </article>
+
+          <!-- Die-Of-Death-Mod -->
+          <article class="card">
+            <div class="card-header">
+              <h3 class="card-title">Die-Of-Death-Mod</h3>
+              <a href="https://github.com/LoboThExile/Die-Of-Death-Mod" class="card-link" target="_blank" rel="noopener noreferrer">Source &nearr;</a>
+            </div>
+            <p class="card-desc">
+              Custom gameplay modification introducing unique death mechanics, combat modifiers, and custom entity event listeners.
+            </p>
+            <div class="card-tags">
+              <span class="tag">Java</span>
+              <span class="tag">Game Modding</span>
+              <span class="tag">Custom Events</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Competencies -->
+      <section id="stack" aria-labelledby="stack-title" style="margin-top: 3rem;">
+        <div class="section-heading">
+          <h2 id="stack-title" class="section-title">03 // Technical Matrix</h2>
+          <div class="section-line" aria-hidden="true"></div>
+        </div>
+
+        <div class="skills-container">
+          <div class="skill-category">
+            <div class="skill-cat-title">Languages</div>
+            <div class="skill-list">
+              <span class="tag">GDScript</span>
+              <span class="tag">Luau</span>
+              <span class="tag">Java</span>
+              <span class="tag">Python</span>
+              <span class="tag">C++</span>
+              <span class="tag">JavaScript / TS</span>
+              <span class="tag">HTML / CSS</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <div class="skill-cat-title">Engines &amp; Runtimes</div>
+            <div class="skill-list">
+              <span class="tag">Godot Engine</span>
+              <span class="tag">RISC-V (mini-rv32ima)</span>
+              <span class="tag">Linux / x86_64</span>
+              <span class="tag">Minecraft Engine</span>
+              <span class="tag">Arduino AVR</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <div class="skill-cat-title">Domains</div>
+            <div class="skill-list">
+              <span class="tag">Systems Emulation</span>
+              <span class="tag">Game Logic &amp; PvP</span>
+              <span class="tag">Datapack Development</span>
+              <span class="tag">Hardware Defense Logic</span>
+              <span class="tag">Discord RPC</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Connect -->
+      <section id="connect" style="margin-top: 3rem;">
+        <div class="connect-box">
+          <div class="connect-info">
+            <div class="connect-title">Reach Out &bull; Direct Contact</div>
+            <div class="connect-desc">Connect on Discord for collaborations, game dev, or questions.</div>
+          </div>
+          <button type="button" class="discord-badge" id="discord-copy-btn" title="Click to copy Discord tag">
+            <span>Discord: <strong>lobothexile</strong></span>
+            <span id="copy-label" aria-live="polite">[Click to Copy]</span>
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div>&copy; 2026 LoboThExile &bull; Hosted on GitHub Pages</div>
+      <div>Zero external runtime trackers</div>
+    </footer>
+  </div>
+
+  <script>
+    const copyBtn = document.getElementById('discord-copy-btn');
+    const copyLabel = document.getElementById('copy-label');
+    if (copyBtn && copyLabel) {
+      copyBtn.addEventListener('click', async () => {
+        try {
+          await navigator.clipboard.writeText('lobothexile');
+          copyLabel.textContent = '[Copied to Clipboard!]';
+          copyLabel.style.color = 'var(--status-online)';
+          setTimeout(() => {
+            copyLabel.textContent = '[Click to Copy]';
+            copyLabel.style.color = '';
+          }, 2000);
+        } catch (err) {
+          copyLabel.textContent = 'lobothexile';
+        }
+      });
+    }
+  </script>
+</body>
+</html>
