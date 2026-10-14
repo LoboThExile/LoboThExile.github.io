@@ -63,18 +63,19 @@
    * Compact quick stats: Public repos, primary languages, active learning track.
 
 3. **Featured Projects (Differentiated Cards):**
-   * **Flagship (Highlight card):**
-     * `Pointmatch` — Minecraft Datapack
-     * `SemestraEnterprise` — Modern web application
-   * **Tools & Experiments (Grid):**
-     * `antigravity-account-switcher` — Developer utility
-     * `The-Wild-Hunt` — PvP game mechanic
-     * `SecurityAlarmArduino` — Laser & photoresistor IoT system
-     * `Die-Of-Death-Mod` — Game mod
+   * **Flagship & Collaborations (Highlight cards):**
+     * `CodeWorkers` — Godot Retro-OS Cyber Simulator & Embedded RISC-V Micro-Linux VM (Collaborative / Private)
+     * `Pointmatch` — Custom Minecraft competitive game logic & datapack architecture
+     * `SemestraEnterprise` — Modern enterprise web application
+   * **Tools & Systems (Grid):**
+     * `antigravity-account-switcher` — Developer utility to manage accounts & bypass rate limits
+     * `The-Wild-Hunt` — Asymmetric multiplayer PvP hunt game mechanics
+     * `SecurityAlarmArduino` — Laser & photoresistor perimeter defense hardware
+     * `Die-Of-Death-Mod` — Custom game mod & mechanics
 
 4. **Technical Competencies (Categorized Chips):**
-   * **Languages:** Java, Python, Luau, C++, JavaScript / TypeScript, HTML/CSS
-   * **Domains:** Minecraft Datapack Development, Arduino / Embedded Logic, Web Frontends, Tooling
+   * **Languages:** GDScript, Luau, Java, Python, C++, JavaScript / TypeScript, HTML/CSS
+   * **Systems & Engines:** Godot Engine, RISC-V / Emulation, Minecraft Datapacks / NBT, Arduino / Embedded Logic, Web Frontends
 
 5. **Connect / Footer:**
    * Discord copy badge (`lobothexile`) with one-click clipboard feedback
